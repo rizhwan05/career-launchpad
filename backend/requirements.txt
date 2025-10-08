@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+llama-cpp-python
+python-dotenv
+pydantic

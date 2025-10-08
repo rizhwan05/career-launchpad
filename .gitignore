@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React
+/build
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
+
+# CSV and data files (if not needed)
+*.csv
+
+# Ignore frontend build artifacts
+frontend/build/
+
+# Ignore backend virtual environments
+backend/venv/
+
+# Ignore backend data files (if not needed)
+backend/*.csv

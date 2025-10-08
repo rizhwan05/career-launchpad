@@ -1,0 +1,49 @@
+.history-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .history-container h2 {
+    text-align: center;
+    color: #0066ff;
+    margin-bottom: 20px;
+  }
+  
+  .history-item {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+  }
+  
+  .history-item h4 {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .messages {
+    padding-left: 10px;
+  }
+  
+  .message {
+    margin: 6px 0;
+    padding: 6px 10px;
+    border-radius: 8px;
+    max-width: 90%;
+  }
+  
+  .message.user {
+    background-color: #e6f0ff;
+    align-self: flex-start;
+  }
+  
+  .message.bot {
+    background-color: #f3f3f3;
+    align-self: flex-start;
+  }
+  

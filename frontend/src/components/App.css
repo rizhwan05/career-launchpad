@@ -1,0 +1,105 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #0066ff;
+  padding: 12px;
+  border-radius: 0 0 12px 12px;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar button.active {
+  border-bottom: 2px solid white;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.profile-tab {
+  text-align: center;
+  color: #333;
+}
+
+.history-container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.history-item {
+  margin-bottom: 20px;
+}
+
+.history-item h4 {
+  color: #0066ff;
+  margin-bottom: 5px;
+}
+
+.history-item .message {
+  margin: 4px 0;
+  padding-left: 8px;
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Profile dropdown */
+.profile-dropdown {
+  position: relative;
+}
+
+.profile-dropdown .profile-content {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: none;
+  min-width: 200px;
+  z-index: 999;
+}
+
+.profile-dropdown:hover .profile-content {
+  display: block;
+}
+
+/* History Panel */
+.history-panel {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.history-panel .history-msg {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-panel .history-msg.user {
+  text-align: right;
+}
+
